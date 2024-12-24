@@ -1,0 +1,23 @@
+1:
+git commit --allow-empty -m "first commit"
+
+2:
+git push origin main
+
+3;
+git branch
+
+4:ブランチを作成
+git branch todo-base
+
+5:ブランチの乗り換え
+git checkout todo-base
+
+6:作成したプログラムのステージをあげる
+git add *
+
+7:提示
+git commit -m "completed todo-base"
+
+8:リモートデポジトリにpush提出
+git push origin todo-base
