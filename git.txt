@@ -21,3 +21,24 @@ git commit -m "completed todo-base"
 
 8:リモートデポジトリにpush提出
 git push origin todo-base
+
+9:gitアカウントにて確認
+
+10:
+git checkout main
+
+11:すでに不要なブランチを削除
+git branch -D todo-base
+
+12:削除できているか確認
+git branch
+
+13:変更内容を実装
+git pull origin main
+
+
+
+
+!:ブランチ作成時と同時に乗り換え出来る
+git checkout -b todo-add
+
